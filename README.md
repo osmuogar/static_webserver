@@ -1,10 +1,11 @@
-# simple-web-service
+# static webserver
 
-Simple web service implemented with express and typescript.
+Static webserver implemented with express and typescript.
+Perfect for single web pages.
 
 ## Table of contents
 
-* [simple-web-service](#simple-web-service)
+* [static-web-server](#static-web-server)
 * [Table of contents](#table-of-contents)
 * [Installation](#installation)
 * [Usage](#usage)
@@ -22,7 +23,9 @@ npm install
 npm run build
 ```
 
-## Ussage
+## Usage
+
+You need to provide a configuration file such as [this](./config/config.json)
 
 ```bash
 # Runs the server
