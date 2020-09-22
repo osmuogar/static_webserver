@@ -26,7 +26,13 @@ npm run build
 ## Usage
 
 You need to provide a configuration file such as [this](./config/config.json)
+and define a variable to point to it's location folder such as:
 
+```bash
+export SIMPLE_WEB_SERVICE_CONFIG_DIR="/my/config/dir/"
+```
+
+Then you can start the server
 ```bash
 # Runs the server
 npm start
